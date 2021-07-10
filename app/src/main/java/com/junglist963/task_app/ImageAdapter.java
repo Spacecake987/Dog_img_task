@@ -28,6 +28,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
 
     public void setList(List<Model> list) {
         this.list = list;
+        notifyDataSetChanged();
     }
 
     @NonNull
